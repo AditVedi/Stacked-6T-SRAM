@@ -1,10 +1,4 @@
-![Low-Power SRAM Banner](images/sram_banner.png)
-
 # Low-Power 6T SRAM Design: Conventional vs Stacked
-
-![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-blue)
-![Cadence Virtuoso](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange)
-![GPDK 90nm](https://img.shields.io/badge/Tech-GPDK%2090nm-green)
 
 **Author:** Aditya Dwivedi  
 
@@ -36,7 +30,7 @@ With modern SoC and VLSI systems, **static power consumption due to leakage curr
 This project explores **transistor stacking** to suppress subthreshold leakage, enabling energy-efficient memory without sacrificing functionality.  
 
 > Supported by:  
-> Kumari et al., 2021, who showed stacking two smaller transistors in series reduces leakage current and lowers SRAM power consumption.  
+> Kumari et al., 2021, who showed that stacking two smaller transistors in series reduces leakage current and lowers SRAM power consumption.  
 
 ---
 
@@ -78,13 +72,15 @@ This project explores **transistor stacking** to suppress subthreshold leakage, 
 
 **Included Plots:**  
 - DC and transient power plots  
-- Comparative visualization highlighting power savings  
+- Comparative visualisation highlighting power savings  
 
 **Image Placeholders:**  
 
-![Conventional 6T SRAM Schematic](images/conventional_sram_schematic.png)  
-![Stacked 6T SRAM Schematic](images/stacked_sram_schematic.png)  
-![Power Comparison Plot](images/power_plot.png)  
+![Conventional 6T SRAM Schematic](images/conventional_SRAM_Schematic.jpg)  
+![Stacked 6T SRAM Schematic](images/Stacked_SRAM_schematic.jpg)  
+![Stacked dc response](images/Stacked_dc_response.jpg)  
+![conventional dc response](images/conventional_dc_response.jpg) 
+![butterfly_diagram](images/butterfly_diagram.jpg) 
 
 ---
 
@@ -96,6 +92,4 @@ This project explores **transistor stacking** to suppress subthreshold leakage, 
 - Findings **align with Kumari et al., 2021**, validating transistor stacking as a low-power SRAM strategy.  
 
 ---
-
-## Repository Contents
 
