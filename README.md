@@ -12,9 +12,6 @@
 - [Simulation Setup](#simulation-setup)  
 - [Results & Analysis](#results--analysis)  
 - [Conclusion & Learnings](#conclusion--learnings)  
-- [Repository Contents](#repository-contents)  
-- [References](#references)  
-
 ---
 
 ## Project Description
@@ -29,8 +26,6 @@ With modern SoC and VLSI systems, **static power consumption due to leakage curr
 
 This project explores **transistor stacking** to suppress subthreshold leakage, enabling energy-efficient memory without sacrificing functionality.  
 
-> Supported by:  
-> Kumari et al., 2021, who showed that stacking two smaller transistors in series reduces leakage current and lowers SRAM power consumption.  
 
 ---
 
@@ -71,7 +66,7 @@ This project explores **transistor stacking** to suppress subthreshold leakage, 
 > Stacked 6T SRAM shows **~43% lower peak power**, validating transistor stacking effectiveness.
 
 **Included Plots:**  
-- DC and transient power plots  
+- DC response of conventional as well as stacked schematic  
 - Comparative visualisation highlighting power savings  
 
 **Image Placeholders:**  
@@ -89,7 +84,6 @@ This project explores **transistor stacking** to suppress subthreshold leakage, 
 - Transistor stacking is a **simple yet effective technique** for leakage control.  
 - Device-level optimizations **significantly reduce power** without performance loss.  
 - Study reinforces **low-power design considerations** in modern VLSI.  
-- Findings **align with Kumari et al., 2021**, validating transistor stacking as a low-power SRAM strategy.  
 
 ---
 
